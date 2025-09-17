@@ -1,0 +1,11 @@
+Y_sum,bkg_type,c_base,c_phys,cpd,N,mean_log_c_phys_meas,std_log_c_phys_meas,logmean_c_phys_meas
+30,VR-flat-normal-bkg-same-bkg-contrast-1-opposite-static,0.2,0.2,4,16,-0.654903506585095,0.0430957709519422,0.221358647913143
+30,VR-flat-normal-bkg-same-bkg-contrast-1-opposite-static,0.3,0.3,4,16,-0.496507880622751,0.0599782969638012,0.318780772983532
+30,flat-normal-bkg-same-bkg-contrast-1-opposite-static,0.4,0.2,4,16,-0.656042489878788,0.0349065359802264,0.22077887199952
+30,flat-normal-bkg-same-bkg-contrast-1-opposite-static,0.6,0.3,4,16,-0.476564643370625,0.0516935871855479,0.333760822217606
+30,noise-normal-bkg-same-bkg-contrast-1-opposite-static,0.4,0.2,4,16,-0.485634583963499,0.100750498386589,0.326862739307635
+30,noise-normal-bkg-same-bkg-contrast-1-opposite-static,0.6,0.3,4,16,-0.367112894284978,0.0695974192620557,0.429424783841491
+30,optics-normal-bkg-same-bkg-contrast-1-opposite-slow-dynamic,0.4,0.2,4,16,-0.657182351440004,0.0781692942004948,0.220200169309429
+30,optics-normal-bkg-same-bkg-contrast-1-opposite-slow-dynamic,0.6,0.3,4,16,-0.485673608553533,0.0781162992147369,0.326833369578451
+30,optics-normal-bkg-same-bkg-contrast-1-opposite-static,0.4,0.2,4,16,-0.631178427641276,0.0480144220018041,0.23378765368419
+30,optics-normal-bkg-same-bkg-contrast-1-opposite-static,0.6,0.3,4,16,-0.461191683877252,0.069915232064802,0.345786724793768
