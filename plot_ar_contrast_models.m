@@ -1,3 +1,7 @@
+FontName = 'Linux Biolinum';
+FontSize = 16;
+Label_FontSize = 14;
+Legend_FontSize = 14;
 Y_amb = logspace( -2, 2 );
 Y_dmax = 100;
 
@@ -54,7 +58,7 @@ for kk=1:K % For each luminance
     %if cc==1 && ff==1 && gg==1
         ind = ceil(0.8*(length(c_phys) - nnz(isnan(c_phys))));
         text( Y_amb(ind), c_phys(ind), sprintf( 'Y_{FG}=%.3g [cd/m^2]', Y), ...
-            'Color', COLORs(kk,:), 'HorizontalAlignment', 'right' );
+            'Color', COLORs(kk,:), 'HorizontalAlignment', 'right','FontName', FontName, 'FontSize', Label_FontSize );
     %end
 
     LSs = { '--', '-.' };
@@ -85,10 +89,20 @@ hold off;
 set_axis_tick_label( 'x', 'luminance', Y_amb );
 set_axis_tick_label( 'y', 'contrast', [0.001 1] );
 
-ylabel( 'Contrast' );
-xlabel( 'Background luminance Y_{BG} [cd/m^2]' );
+ax = gca;
+ax.XAxis.FontName  = FontName;
+ax.XAxis.FontSize  = Label_FontSize;
 
-legend( hh, 'Location', 'Best' );
+ax.YAxis.FontName  = FontName;
+ax.YAxis.FontSize  = Label_FontSize;
+
+
+ylabel( 'Contrast' , 'FontSize', Label_FontSize, 'FontName', FontName, 'Interpreter', 'tex');
+xlabel( 'Background luminance Y_{BG} [cd/m^2]' ,'FontSize', Label_FontSize, 'FontName', FontName, 'Interpreter', 'tex');
+
+legend_handle = legend( hh, 'Location', 'Southwest' );
+set(legend_handle, 'FontName', FontName, 'FontSize', Legend_FontSize, 'Interpreter', 'tex');
+
 ylim( [0.01 0.25]);
 xlim( [Y_amb(1) Y_amb(end)] );
 

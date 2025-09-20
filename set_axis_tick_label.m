@@ -45,11 +45,11 @@ switch unit
         f_min = floor( log10(range(1)) );
         f_max = ceil( log10(range(end) ) );
 
-        if unit == "large_contrast"
+%         if unit == "large_contrast"
             step = 1;
-        else
-            step = 0.2;
-        end
+%         else
+%             step = 0.2;
+%         end
         ticks = 10.^(f_min:step:f_max);
 
         xtick_labs = num2str( ticks' );
