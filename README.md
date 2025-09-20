@@ -1,5 +1,5 @@
 # AR Contrast Perception
-### [Paper]() | [Project Page](https://www.cl.cam.ac.uk/research/rainbow/projects/ar-contrast/) | [Video]()
+### [Paper](https://dongyeon93.github.io/assets/pdf/AR_contrast.pdf) | [Project Page](https://www.cl.cam.ac.uk/research/rainbow/projects/ar-contrast/) | [Video](https://www.youtube.com/watch?v=tPUkpA6VI8c)
 
 [Dongyeon Kim](https://dongyeon93.github.io/),
 [Maliha Ashraf](https://malihaashraf.github.io/),
