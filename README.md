@@ -8,6 +8,9 @@ and [Rafał K. Mantiuk](https://www.cl.cam.ac.uk/~rkm38/)
 
 Test code & data for the SIGGRAPH Asia 2025 conference proceeding titled "Supra-threshold Contrast Perception in Augmented Reality"
 
+![logo](image/overview.svg)
+[![Replicability Stamp](https://www.replicabilitystamp.org/logo/Reproducibility-small.png)](http://www.replicabilitystamp.org#https-github-com-gfxdisp-ar-contrast-perception)
+
 ## 1. To Start
 
 To check out
